@@ -1,0 +1,65 @@
+# ---------------------------------------------------------------------------
+# Experiment result data — regenerated from the protocol; never committed.
+# See docs/REPRODUCIBILITY.md to reproduce every number, table, and figure.
+# ---------------------------------------------------------------------------
+paper_runs/
+outputs_*/
+results_*/
+aggregate_*/
+smoke_outputs/
+smoke_results/
+
+# Generated task files (the generator and adapters are versioned, not the data)
+tasks_*.jsonl
+smoke_tasks.jsonl
+# (examples/public_tasks_sample.jsonl is a tiny committed format sample)
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# ---------------------------------------------------------------------------
+# LaTeX build artifacts (paper sources and figures are committed; builds are not)
+# ---------------------------------------------------------------------------
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+
+# ---------------------------------------------------------------------------
+# Paper sources — withheld from version control (kept locally; do not publish
+# the manuscript until it is released).
+# ---------------------------------------------------------------------------
+paper/
+
+# ---------------------------------------------------------------------------
+# OS / editor
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
